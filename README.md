@@ -21,7 +21,7 @@ A simple Gradio web interface to fetch, clean, and export health indicators from
 
 > This project uses [Gradio](https://www.gradio.app/) for an interactive browser UI
 
-![Gradio Screenshot Placeholder](https://placehold.co/1000x400?text=Gradio+UI+Screenshot)
+![Gradio Screenshot Placeholder](/ho2,png)
 
 
 ## 🔧 Requirements
