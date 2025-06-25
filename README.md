@@ -51,16 +51,21 @@ unified-data-processor/
 ```
 
 
-## 📂 Input Files Required
+## 📂 Input Files Required (Not Included)
 
-| File                                          | Purpose                                                 |
-| --------------------------------------------- | ------------------------------------------------------- |
-| `master_query.xlsx`                           | DHS indicator list (must contain column `indicatorIds`) |
-| `master_query2.xlsx`                          | WHO indicator list (must contain column `indicatorIds`) |
-| `GHO-Indicator-list.xlsx`                     | WHO indicator lookup (GHO → IndicatorCode)              |
-| `GHO-CountryName-ISO-Matching_16April25.xlsx` | Country name → ISO code mapping                         |
+> ⚠️ **The required Excel files are NOT included in this repository** due to size or privacy reasons.
 
-Upload all to `/content/` directory in your Colab/Cloud environment.
+Before running the app, **upload the following files manually into the `/content/` directory** (especially if using Google Colab):
+
+| File Name | Description |
+|-----------|-------------|
+| `master_query.xlsx` | DHS indicator list (must contain `indicatorIds` column) |
+| `master_query2.xlsx` | WHO Athena indicator list (must contain `indicatorIds` column) |
+| `GHO-Indicator-list.xlsx` | WHO indicator lookup table (maps `GHO` → `IndicatorCode`) |
+| `GHO-CountryName-ISO-Matching_16April25.xlsx` | Country name to ISO code mapping |
+
+If you don't have these files, create your own versions with similar structure or contact the developer.
+
 
 
 ## 🚀 Run the App (Colab or Local)
@@ -91,4 +96,4 @@ The app will launch and provide a public link (via Gradio `share=True`).
 
 **Tanmay Jain**
 B.Tech Computer Science (Data Science & Analytics)
-[LinkedIn](https://www.linkedin.com/in/tanmay3463) • [GitHub](https://github.com/Tanmay3463)
+[LinkedIn](https://www.linkedin.com/in/tanmay-jain-396230250/) • [GitHub](https://github.com/Tanmay3463)
